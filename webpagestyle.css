@@ -1,0 +1,257 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color:#dae1dd;
+    
+}
+
+
+.header {/*headern container*/
+    margin: 0; 
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    position: fixed; /*set position on the top*/
+    display: flex; 
+    align-items: center; 
+}
+
+.header img{
+    display: flex;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
+ }
+
+ .logo-image{
+    height: 75%;
+    width: auto;
+ }
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    
+    
+
+}
+
+
+.header h3{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform:uppercase ;
+ }
+
+
+ .name{
+    font-size: 200%;
+ }
+
+
+
+.navbar ul {
+    justify-items: end;
+    justify-content: flex-end;
+    display: flex;
+    list-style: none;
+    padding: 5px,0;
+    margin-left: auto;
+}
+
+
+
+.navbar ul li {
+    margin: 10px; 
+}
+
+
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000000; 
+    font-family: 'Roboto', sans-serif;
+    font-size: larger; 
+    font-weight: bold;
+    padding: 5px 10px; 
+    border-radius: 4px; 
+    
+}
+
+
+.navbar ul li a:hover{
+    background-color:rgba(149, 223, 113, 0.713); ;
+}
+
+.image{
+    display: block;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+h4{
+    color:rgba(0, 0, 0, 0.17);
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    text-align: center;  
+    text-transform:uppercase ;
+}
+
+
+
+
+h1{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;  
+    text-transform:uppercase ;
+}
+
+
+
+
+.heading-aboutus{  
+    font-size: 300%;
+    color: rgb(6, 6, 6);
+}  
+
+
+
+p{
+    margin-top	: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    
+}
+
+
+.paragraph{
+    font-family: 'Roboto', sans-serif;
+    color: #000000a3;
+    text-align: center;
+    font-size:larger; 
+    
+}
+.footer {
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 0; 
+    position: fixed; 
+    bottom: 0; 
+    height: 100px;
+    width: 100%;
+    background-color: rgb(140, 222, 240);
+}
+
+
+.contact-us{
+    background-color: rgba(205, 203, 200, 0);
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+
+}
+.ver{
+    align-content:flex-end  ;
+    justify-content: center;
+    justify-items: center;
+    width: 40%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;
+}
+
+.ver label{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 0;
+    font-weight: bold;
+    justify-content: left;
+}
+ .ver input{
+    background-color: white;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+ }
+
+ .hor input{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+    
+ }
+
+ 
+ .ver input:hover{
+    background-color: #e0e9e4b2;
+
+
+ }
+ .ver textarea {
+    background-color: white;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    height: 200px; 
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none; /* Allow users to resize the textarea */
+}
+
+ .sver textarea:hover{
+    background-color: #e0e9e4b2;
+
+
+ }
+
+ .ver button{
+    margin: 20px;
+    border-radius: 5px;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(106, 175, 202);
+    text-transform: uppercase;
+    color: #000000;
+ }
+ .ver button:hover{
+    background-color: blue;
+    
+ }
+.ver h5{
+
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hor{
+    display: flex;
+    flex-direction: row:
+
+    
+}
+
+ 
