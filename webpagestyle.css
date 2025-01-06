@@ -1,6 +1,3 @@
-html {
-    scroll-behavior: smooth; 
-}
 
 
 body{
@@ -14,88 +11,9 @@ body{
 }
 
 
-.header {
-    margin: 0; 
-    width: 100%;
-    height: 100px;
-    background-color:#9ea8a2;
-    top: 0;
-    position: fixed; 
-    display: flex; 
-    align-items: center; 
-    border: 3px transparent;
-    box-shadow: 0 0 15px 15px rgb(165, 178, 178);
-}
-
-.header img{
-    display: flex;
-    border-radius: 5px;
-    margin-left: 20px;
-    margin-right: 10px;
- }
-
- .logo-image{
-    height: 75%;
-    width: auto;
- }
 
 
 
-.navbar{
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    
-    
-
-}
-
-
-.header h3{
-    font-family: 'Roboto', sans-serif;
-    color: rgb(0, 0, 0);
-    text-transform:uppercase ;
- }
-
-
- .name{
-    font-size: 200%;
- }
-
-
-
-.navbar ul {
-    justify-items: end;
-    justify-content: flex-end;
-    display: flex;
-    list-style: none;
-    padding: 5px,0;
-    margin-left: auto;
-}
-
-
-
-.navbar ul li {
-    margin: 10px; 
-}
-
-
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #000000; 
-    font-family: 'Roboto', sans-serif;
-    font-size: larger; 
-    font-weight: bold;
-    padding: 5px 10px; 
-    border-radius: 4px; 
-    
-}
-
-
-.navbar ul li a:hover{
-    background-color:rgba(149, 223, 113, 0.713); ;
-}
 
 .image{
     display: block;
@@ -161,18 +79,7 @@ hr{
     align-items: center;
     height: 2px;
 }
-.footer {
-    justify-content: center;
-    margin-top: auto;
-    margin-bottom: 0; 
-    position: fixed; 
-    bottom: 0; 
-    height: 100px;
-    width: 100%;
-    background-color: rgb(140, 222, 240);
-    border: 3px transparent;
-    box-shadow: 0 0 15px 15px rgba(197, 213, 213, 0.7);
-}
+
 
 
 .contact-us{
@@ -284,21 +191,4 @@ hr{
  .ver a:hover{
     text-decoration: underline;
  }
- .footer {
-    justify-content: center;
-    background-color:#9ea8a2;
-    box-shadow: #5d6360;
-    margin-top: auto; 
-    margin-bottom: 0;
-    width: 100%;
-    height: 50px;  
-    align-items: center; 
-}
-
-.footer p{
-    text-transform: capitalize;
-    margin: 20px;
-    text-align: center;
-    align-content: center;
-
-}
+ 
