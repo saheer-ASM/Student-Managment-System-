@@ -124,8 +124,7 @@ hr{
     padding: 5px;
     width: 80%;
     height: 20px;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
  }
 
  
@@ -165,12 +164,7 @@ hr{
     background-color:rgba(149, 223, 113, 0.713);
     
  }
-.ver h5{
 
-    font-size: 25px;
-    text-transform: uppercase;
-    text-align: center;
-}
 .hor{
     display: flex;
     width: 100%;
@@ -191,4 +185,34 @@ hr{
  .ver a:hover{
     text-decoration: underline;
  }
+ .contact-table{
+    width: 40%;
+    justify-items: center;
+    justify-content: 	center	;
+ }
  
+.contact-table h5{
+    text-align: center;
+    font-size: 25px;
+}
+ .contact-table table{
+    margin: 10px;
+    padding: 5px;
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+
+ }
+
+ .contact-table table tr{
+    justify-content: center;
+    align-content: flex-start;
+
+ }
+
+ .contact-table table tr td{
+    justify-content: center;
+    padding: 10px;
+    align-content: flex-start;
+
+ }

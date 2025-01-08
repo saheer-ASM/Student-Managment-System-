@@ -16,16 +16,17 @@
         <form>
             <div class="form-group">
                 <label for="username">Username</label>
-                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                <input type="text" id="username"  placeholder="Enter your username" required>
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <input type="password" id="password"  placeholder="Enter your password" required>
             </div>
-            <button class="login-button" type="submit">Login</button>
+            <button class="login-button" type="submit" onclick="return check()">Login</button>
         </form>
+        <div class="error" id="error"></div>
         <div class="forgot-password">
-            <a href="#">Forgot Password?</a>
+            <a href="#" id ="forgotpassword">Forgot Password?</a>
         </div>
         <div class="tag">
             
@@ -36,6 +37,6 @@
     </div>
    
 
-    
+    <script src="loginpage.js"></script>
 </body>
 </html>
