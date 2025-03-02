@@ -1,5 +1,5 @@
-var username ="shaheer";
-var password="hyrt%74";
+var username ="admin";
+var password="admin";
 var massage = document.getElementById("error"); 
 
 function check()
