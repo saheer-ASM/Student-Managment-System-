@@ -1,0 +1,44 @@
+.student-details {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-details h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.profile-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0044cc;
+}
+
+
+.details-card {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.details-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.details-card strong {
+    color: #333;
+}
