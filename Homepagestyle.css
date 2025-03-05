@@ -11,12 +11,15 @@
 
 .student-details {
     display: flex;
-    flex-direction:column;
-    align-items:center;
-    align-content:center;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
+
 
 .student-detail {
     background-color: #fff;
@@ -31,9 +34,29 @@
     margin-bottom: 10px;
     font-size: 22px;
 }
+.navibar {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c3e50;
+    padding: 10px 0;
+}
 
+.navibar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navibar a:hover {
+    text-decoration:underline
+}
+}
 table {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
 }
 
