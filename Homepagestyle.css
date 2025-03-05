@@ -1,44 +1,53 @@
-body{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color:#dae1dd;   
+.student-info {
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
-.nav-toggle-button {
-    position: absolute;
-    top: 20px;
-    left: 0;
-    background-color: #449e88;
-    color: #000000;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-  }
-  .vertical-nav {
-    width: 200px;
-    height: 100vh;
+.student-info h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.student-details {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    align-content:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.student-detail {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.student-detail h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
     background-color: #333;
-    position: fixed;
-    top: 0;
-    left: -200px; /* Hide the nav by positioning it off-screen */
-    transition: left 0.3s ease;
-  }
+    color: white;
+}
 
-  .vertical-nav a {
-    padding: 15px 25px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #f1f1f1;
-    display: block;
-  }
-
-  .vertical-nav a:hover {
-    background-color: #575757;
-  }
-  
-  .vertical-nav.active {
-    left: 0; /* Slide the nav into view */
-  }
+table td {
+    background-color: #f9f9f9;
+}

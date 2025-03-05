@@ -1,20 +1,3 @@
-
-
-body{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color:#dae1dd;
-    
-}
-
-
-
-
-
-
 .image{
     display: block;
     border-radius: 15px;
@@ -54,18 +37,16 @@ h1{
 .heading-aboutus{  
     font-size: 300%;
     color: rgb(6, 6, 6);
-}  
-
-
-
-p{
-    margin-top	: 10px;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-bottom: 25px;
-    
 }
 
+
+
+p {
+    margin: 10px auto;
+    padding: 0 10px;
+    max-width: 90%;
+    text-align: center;
+}
 
 .paragraph{
     font-family: 'Roboto', sans-serif;
@@ -83,15 +64,18 @@ hr{
 
 
 
-.contact-us{
+.contact-us {
     background-color: rgba(205, 203, 200, 0);
     padding-bottom: 100px;
     display: flex;
     flex-direction: row;
     height: auto;
     width: 100%;
-
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100vw;
 }
+
 .ver{
     display: flex;
     flex-direction: column; 
