@@ -4,6 +4,41 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color:#dae1dd;
-    
+    background-color:#dae1dd;   
 }
+
+.nav-toggle-button {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-color: #449e88;
+    color: #000000;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  .vertical-nav {
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: -200px; /* Hide the nav by positioning it off-screen */
+    transition: left 0.3s ease;
+  }
+
+  .vertical-nav a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f1f1f1;
+    display: block;
+  }
+
+  .vertical-nav a:hover {
+    background-color: #575757;
+  }
+  
+  .vertical-nav.active {
+    left: 0; /* Slide the nav into view */
+  }

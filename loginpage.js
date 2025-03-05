@@ -8,8 +8,8 @@ function check()
     var getPassword = document.getElementById("password").value;
 
 
-    if(getUsername==username && getPassword == password){
-        window.location.href ="homepage.html";
+    if(getUsername == username && getPassword == password){
+        window.location.href="Homepage.html";
         return false;
     }
     else{
