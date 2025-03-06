@@ -12,7 +12,7 @@
         Background="#2c3e50">
 
     <Grid>
-        <!-- Background Gradient -->
+        
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                 <GradientStop Color="#34495e" Offset="0.1"/>
@@ -20,23 +20,23 @@
             </LinearGradientBrush>
         </Grid.Background>
 
-        <!-- College Name Header -->
+        
         <TextBlock Text="Infinity Science Academy" 
                    Foreground="White" FontSize="26" FontWeight="Bold"
                    HorizontalAlignment="Center" VerticalAlignment="Top"
                    Margin="0,20,0,0"/>
 
-        <!-- Organization Logo -->
+        
         <Image Source="C:\Users\MOHAMED SHAHEER\Desktop\NEW\Student MAnagment Sytem\Images\logo.jpg"
                Height="100" Width="100"
                HorizontalAlignment="Center" VerticalAlignment="Top"
                Margin="0,60,0,0"/>
 
-        <!-- Login Form -->
+        
         <Border Background="White" Width="380" Height="300" CornerRadius="10" Margin="0,180,0,0">
 
             <StackPanel Margin="20" >
-                <!-- Login Header -->
+                
                 <TextBlock Text="Login to Your Admin Account" 
                            FontSize="18" FontWeight="Bold" Foreground="#2c3e50"
                            HorizontalAlignment="Center" Margin="0,0,0,20"/>
