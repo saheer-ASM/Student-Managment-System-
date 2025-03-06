@@ -1,13 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Prevents elements from exceeding their width */
-}
+    box-sizing: border-box; 
 
 html, body {
     width: 100%;
     overflow-x: hidden;
-    scroll-behavior: smooth; /* Hides any horizontal overflow */
+    scroll-behavior: smooth; 
 }
 
 
