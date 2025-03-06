@@ -5,26 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Student_MAnagment_Sytem"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+		Background="#2c3e50">
     <Grid Margin="10">
-        <!-- Define overall rows: Header, Input Fields, Buttons, and DataGrid -->
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <!-- Header -->
             <RowDefinition Height="Auto"/>
-            <!-- Input Fields Grid -->
             <RowDefinition Height="Auto"/>
-            <!-- Buttons Row -->
             <RowDefinition Height="*"/>
-            <!-- DataGrid -->
         </Grid.RowDefinitions>
 
-        <!-- Header -->
-        <TextBlock Grid.Row="0" Text="College Name" 
+        <TextBlock Grid.Row="0" Text="Infinity Science Academy" 
                    FontSize="28" FontWeight="Bold" 
                    HorizontalAlignment="Center" Margin="10"/>
 
-        <!-- Input Fields Grid (4 columns, 3 rows) -->
         <Grid Grid.Row="1" Margin="10" Background="#F0F0F0" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -38,78 +33,119 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- Column 1: Name, Age, Address -->
-            <StackPanel Grid.Row="0" Grid.Column="0" Margin="5">
+            <StackPanel Grid.Row="0" 
+						Grid.Column="0"
+						Margin="5">
                 <TextBlock Text="Name:" FontWeight="SemiBold"/>
                 <TextBox x:Name="NameTextBox" Margin="0,2,0,0"/>
             </StackPanel>
-            <StackPanel Grid.Row="1" Grid.Column="0" Margin="5">
+			
+			
+            <StackPanel Grid.Row="1" 
+						Grid.Column="0" 
+						Margin="5">
                 <TextBlock Text="Age:" FontWeight="SemiBold"/>
                 <TextBox x:Name="AgeTextBox" Margin="0,2,0,0"/>
             </StackPanel>
-            <StackPanel Grid.Row="2" Grid.Column="0" Margin="5">
+			
+			
+            <StackPanel Grid.Row="2"
+						Grid.Column="0"
+						Margin="5">
                 <TextBlock Text="Address:" FontWeight="SemiBold"/>
                 <TextBox x:Name="AddressTextBox" Margin="0,2,0,0"/>
             </StackPanel>
+			
 
-            <!-- Column 2: Email, Phone Number, Batch -->
-            <StackPanel Grid.Row="0" Grid.Column="1" Margin="5">
+            <StackPanel Grid.Row="0"
+						Grid.Column="1"
+						Margin="5">
                 <TextBlock Text="Email:" FontWeight="SemiBold"/>
                 <TextBox x:Name="EmailTextBox" Margin="0,2,0,0"/>
             </StackPanel>
-            <StackPanel Grid.Row="1" Grid.Column="1" Margin="5">
+			
+			
+            <StackPanel Grid.Row="1" 
+						Grid.Column="1" 
+						Margin="5">
                 <TextBlock Text="Phone Number:" FontWeight="SemiBold"/>
                 <TextBox x:Name="PhoneNumberTextBox" Margin="0,2,0,0"/>
             </StackPanel>
-            <StackPanel Grid.Row="2" Grid.Column="1" Margin="5">
+			
+			
+            <StackPanel Grid.Row="2" 
+						Grid.Column="1"
+						Margin="5">
                 <TextBlock Text="Batch:" FontWeight="SemiBold"/>
                 <TextBox x:Name="BatchTextBox" Margin="0,2,0,0"/>
             </StackPanel>
+			
 
-            <!-- Column 3: Stream, Date of Birth, Gender -->
-            <StackPanel Grid.Row="0" Grid.Column="2" Margin="5">
+            <StackPanel Grid.Row="0" 
+						Grid.Column="2" 
+						Margin="5">
                 <TextBlock Text="Stream:" FontWeight="SemiBold"/>
                 <TextBox x:Name="StreamTextBox" Margin="0,2,0,0"/>
             </StackPanel>
-            <StackPanel Grid.Row="1" Grid.Column="2" Margin="5">
+			
+			
+            <StackPanel Grid.Row="1"
+						Grid.Column="2" 
+						Margin="5">
                 <TextBlock Text="Date of Birth:" FontWeight="SemiBold"/>
                 <DatePicker x:Name="DateOfBirthDatePicker" Margin="0,2,0,0"/>
             </StackPanel>
-            <StackPanel Grid.Row="2" Grid.Column="2" Margin="5">
+			
+			
+            <StackPanel Grid.Row="2" 
+						Grid.Column="2" 
+						Margin="5">
                 <TextBlock Text="Gender:" FontWeight="SemiBold"/>
-                <ComboBox x:Name="GenderComboBox" Margin="0,2,0,0">
-                    <ComboBoxItem Content="Male"/>
-                    <ComboBoxItem Content="Female"/>
-                    <ComboBoxItem Content="Other"/>
-                </ComboBox>
+				<TextBox x:Name="GenderComboBox" Margin="0,2,0,0"/>
             </StackPanel>
 
-            <!-- Column 4: Guardian Name, Guardian Contact, Enrollment Date -->
-            <StackPanel Grid.Row="0" Grid.Column="3" Margin="5">
+            <StackPanel Grid.Row="0"
+						Grid.Column="3" 
+						Margin="5">
                 <TextBlock Text="Guardian Name:" FontWeight="SemiBold"/>
                 <TextBox x:Name="GuardianNameTextBox" Margin="0,2,0,0"/>
             </StackPanel>
-            <StackPanel Grid.Row="1" Grid.Column="3" Margin="5">
+			
+			
+            <StackPanel Grid.Row="1"
+						Grid.Column="3" 
+						Margin="5">
                 <TextBlock Text="Guardian Contact:" FontWeight="SemiBold"/>
                 <TextBox x:Name="GuardianContactTextBox" Margin="0,2,0,0"/>
             </StackPanel>
-            <StackPanel Grid.Row="2" Grid.Column="3" Margin="5">
+			
+			
+            <StackPanel Grid.Row="2"
+						Grid.Column="3" 
+						Margin="5">
                 <TextBlock Text="Enrollment Date:" FontWeight="SemiBold"/>
                 <DatePicker x:Name="EnrollmentDatePicker" Margin="0,2,0,0"/>
             </StackPanel>
+			
         </Grid>
 
-        <!-- Buttons Row -->
-        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
-            <!-- When details are filled, clicking "Add" will save the data.
-                 Selecting a student from the list should allow "Update" and "Delete" operations. -->
+        <StackPanel Grid.Row="2" 
+					Orientation="Horizontal"
+					HorizontalAlignment="Center" 
+					Margin="10">
+            
             <Button x:Name="AddButton" Content="Add Student" Width="100" Margin="5" Click="AddButton_Click"/>
-            <Button x:Name="UpdateButton" Content="Update Student" Width="100" Margin="5"/>
-            <Button x:Name="DeleteButton" Content="Delete Student" Width="100" Margin="5"/>
+            <Button x:Name="UpdateButton" Content="Update Student" Width="100" Margin="5" Click="UpdateButton_Click"/>
+            <Button x:Name="DeleteButton" Content="Delete Student" Width="100" Margin="5" Click="DeleteButton_Click"/>
         </StackPanel>
 
-        <!-- DataGrid Row -->
-        <DataGrid x:Name="StudentDataGrid" Grid.Row="14" Grid.Column="0" Grid.ColumnSpan="4" Margin="5" SelectionChanged="StudentDataGrid_SelectionChanged"/>
+        
+        <DataGrid x:Name="StudentDataGrid" 
+				  Grid.Row="14"
+				  Grid.Column="0" 
+				  Grid.ColumnSpan="4" 
+				  Margin="5" 
+				  SelectionChanged="StudentDataGrid_SelectionChanged"/>
 
     </Grid>
 </Window>
